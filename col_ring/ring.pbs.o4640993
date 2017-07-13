@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4640993.sdb   started: 13/07/17 10:51:58   host: mom4 ***
+*** guest52   Job: 4640993.sdb   started: 13/07/17 10:51:58   host: mom4 ***
+*** guest52   Job: 4640993.sdb   started: 13/07/17 10:51:58   host: mom4 ***
+*** guest52   Job: 4640993.sdb   started: 13/07/17 10:51:58   host: mom4 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program ring on 4 processes
+Started at Thu Jul 13 10:51:59 BST 2017
+--------------------------------------------------------------------------------
+Rank 1 [Thu Jul 13 10:52:01 2017] [c0-0c0s2n2] Fatal error in PMPI_Wait: Invalid MPI_Request, error stack:
+PMPI_Wait(186): MPI_Wait(request=0xa95e78, status=0xa95ec0) failed
+PMPI_Wait(137): Invalid MPI_Request
+Rank 3 [Thu Jul 13 10:52:01 2017] [c0-0c0s2n2] Fatal error in PMPI_Wait: Invalid MPI_Request, error stack:
+PMPI_Wait(186): MPI_Wait(request=0xa95e78, status=0xa95ec0) failed
+PMPI_Wait(137): Invalid MPI_Request
+Rank 2 [Thu Jul 13 10:52:01 2017] [c0-0c0s2n2] Fatal error in PMPI_Wait: Invalid MPI_Request, error stack:
+PMPI_Wait(186): MPI_Wait(request=0xa95e78, status=0xa95ec0) failed
+PMPI_Wait(137): Invalid MPI_Request
+Rank 0 [Thu Jul 13 10:52:01 2017] [c0-0c0s2n2] Fatal error in PMPI_Wait: Invalid MPI_Request, error stack:
+PMPI_Wait(186): MPI_Wait(request=0xa95e78, status=0xa95ec0) failed
+PMPI_Wait(137): Invalid MPI_Request
+_pmiu_daemon(SIGCHLD): [NID 00010] [c0-0c0s2n2] [Thu Jul 13 10:52:01 2017] PE RANK 2 exit signal Aborted
+[NID 00010] 2017-07-13 10:52:02 Apid 27672942: initiated application termination
+Application 27672942 exit codes: 134
+Application 27672942 resources: utime ~0s, stime ~0s, Rss ~6172, inblocks ~8589, outblocks ~21205
+
+real	0m2.809s
+user	0m0.512s
+sys	0m0.140s
+--------------------------------------------------------------------------------
+Finished at Thu Jul 13 10:52:02 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=22032kb,ncpus=24,vmem=160096kb,walltime=00:00:04
+
+*** guest52   Job: 4640993.sdb   ended: 13/07/17 10:52:02   queue: R4599300 ***
+*** guest52   Job: 4640993.sdb   ended: 13/07/17 10:52:02   queue: R4599300 ***
+*** guest52   Job: 4640993.sdb   ended: 13/07/17 10:52:02   queue: R4599300 ***
+*** guest52   Job: 4640993.sdb   ended: 13/07/17 10:52:02   queue: R4599300 ***
+--------------------------------------------------------------------------------

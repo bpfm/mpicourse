@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4636867.sdb   started: 12/07/17 12:33:03   host: mom2 ***
+*** guest52   Job: 4636867.sdb   started: 12/07/17 12:33:03   host: mom2 ***
+*** guest52   Job: 4636867.sdb   started: 12/07/17 12:33:03   host: mom2 ***
+*** guest52   Job: 4636867.sdb   started: 12/07/17 12:33:03   host: mom2 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program helloworld on 4 processes
+Started at Wed Jul 12 12:33:03 BST 2017
+--------------------------------------------------------------------------------
+Hello World
+Hello World
+Hello World
+Hello World
+Application 27655770 resources: utime ~0s, stime ~0s, Rss ~5800, inblocks ~8748, outblocks ~21125
+
+real	0m2.904s
+user	0m0.536s
+sys	0m0.136s
+--------------------------------------------------------------------------------
+Finished at Wed Jul 12 12:33:06 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:04
+
+*** guest52   Job: 4636867.sdb   ended: 12/07/17 12:33:06   queue: standard ***
+*** guest52   Job: 4636867.sdb   ended: 12/07/17 12:33:06   queue: standard ***
+*** guest52   Job: 4636867.sdb   ended: 12/07/17 12:33:06   queue: standard ***
+*** guest52   Job: 4636867.sdb   ended: 12/07/17 12:33:06   queue: standard ***
+--------------------------------------------------------------------------------

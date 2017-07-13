@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4640974.sdb   started: 13/07/17 10:48:32   host: mom5 ***
+*** guest52   Job: 4640974.sdb   started: 13/07/17 10:48:32   host: mom5 ***
+*** guest52   Job: 4640974.sdb   started: 13/07/17 10:48:32   host: mom5 ***
+*** guest52   Job: 4640974.sdb   started: 13/07/17 10:48:32   host: mom5 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program ring on 4 processes
+Started at Thu Jul 13 10:48:33 BST 2017
+--------------------------------------------------------------------------------
+Rank 0 [Thu Jul 13 10:48:35 2017] [c3-1c0s11n1] Fatal error in MPI_Recv: Invalid communicator, error stack:
+MPI_Recv(199): MPI_Recv(buf=0xa95e70, count=1, MPI_INTEGER, src=3, tag=1140850688, comm=0xac000002, status=0xa95e48) failed
+MPI_Recv(96).: Invalid communicator
+Rank 3 [Thu Jul 13 10:48:35 2017] [c3-1c0s11n1] Fatal error in MPI_Recv: Invalid communicator, error stack:
+MPI_Recv(199): MPI_Recv(buf=0xa95e70, count=1, MPI_INTEGER, src=2, tag=1140850688, comm=0xac000000, status=0xa95e48) failed
+MPI_Recv(96).: Invalid communicator
+Rank 2 [Thu Jul 13 10:48:35 2017] [c3-1c0s11n1] Fatal error in MPI_Recv: Invalid communicator, error stack:
+MPI_Recv(199): MPI_Recv(buf=0xa95e70, count=1, MPI_INTEGER, src=1, tag=1140850688, comm=0xac000000, status=0xa95e48) failed
+MPI_Recv(96).: Invalid communicator
+Rank 1 [Thu Jul 13 10:48:35 2017] [c3-1c0s11n1] Fatal error in MPI_Recv: Invalid communicator, error stack:
+MPI_Recv(199): MPI_Recv(buf=0xa95e70, count=1, MPI_INTEGER, src=0, tag=1140850688, comm=0xac000000, status=0xa95e48) failed
+MPI_Recv(96).: Invalid communicator
+_pmiu_daemon(SIGCHLD): [NID 02157] [c3-1c0s11n1] [Thu Jul 13 10:48:35 2017] PE RANK 3 exit signal Aborted
+[NID 02157] 2017-07-13 10:48:35 Apid 27672889: initiated application termination
+Application 27672889 exit codes: 134
+Application 27672889 resources: utime ~0s, stime ~0s, Rss ~7684, inblocks ~8589, outblocks ~21205
+
+real	0m2.877s
+user	0m0.500s
+sys	0m0.148s
+--------------------------------------------------------------------------------
+Finished at Thu Jul 13 10:48:36 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:04
+
+*** guest52   Job: 4640974.sdb   ended: 13/07/17 10:48:36   queue: R4599300 ***
+*** guest52   Job: 4640974.sdb   ended: 13/07/17 10:48:36   queue: R4599300 ***
+*** guest52   Job: 4640974.sdb   ended: 13/07/17 10:48:36   queue: R4599300 ***
+*** guest52   Job: 4640974.sdb   ended: 13/07/17 10:48:36   queue: R4599300 ***
+--------------------------------------------------------------------------------

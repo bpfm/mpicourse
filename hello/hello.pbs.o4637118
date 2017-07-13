@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4637118.sdb   started: 12/07/17 13:04:31   host: mom3 ***
+*** guest52   Job: 4637118.sdb   started: 12/07/17 13:04:31   host: mom3 ***
+*** guest52   Job: 4637118.sdb   started: 12/07/17 13:04:31   host: mom3 ***
+*** guest52   Job: 4637118.sdb   started: 12/07/17 13:04:31   host: mom3 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program hello on 4 processes
+Started at Wed Jul 12 13:04:32 BST 2017
+--------------------------------------------------------------------------------
+Attempting to use an MPI routine after finalizing MPICH
+Attempting to use an MPI routine after finalizing MPICH
+Attempting to use an MPI routine after finalizing MPICH
+Attempting to use an MPI routine after finalizing MPICH
+Application 27656518 exit codes: 1
+Application 27656518 resources: utime ~0s, stime ~0s, Rss ~6120, inblocks ~8911, outblocks ~21193
+
+real	0m2.585s
+user	0m0.492s
+sys	0m0.156s
+--------------------------------------------------------------------------------
+Finished at Wed Jul 12 13:04:34 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:03
+
+*** guest52   Job: 4637118.sdb   ended: 12/07/17 13:04:35   queue: R4599305 ***
+*** guest52   Job: 4637118.sdb   ended: 12/07/17 13:04:35   queue: R4599305 ***
+*** guest52   Job: 4637118.sdb   ended: 12/07/17 13:04:35   queue: R4599305 ***
+*** guest52   Job: 4637118.sdb   ended: 12/07/17 13:04:35   queue: R4599305 ***
+--------------------------------------------------------------------------------

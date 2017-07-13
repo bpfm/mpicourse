@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4641019.sdb   started: 13/07/17 10:58:20   host: mom2 ***
+*** guest52   Job: 4641019.sdb   started: 13/07/17 10:58:20   host: mom2 ***
+*** guest52   Job: 4641019.sdb   started: 13/07/17 10:58:20   host: mom2 ***
+*** guest52   Job: 4641019.sdb   started: 13/07/17 10:58:20   host: mom2 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program ring on 4 processes
+Started at Thu Jul 13 10:58:21 BST 2017
+--------------------------------------------------------------------------------
+ from rank  2  the total is  13
+ from rank  3  the total is  25
+ from rank  1  the total is  5
+ from rank  0  the total is  17
+ from rank  2  the total is  14
+ from rank  1  the total is  21
+ from rank  3  the total is  29
+ from rank  2  the total is  30
+ from rank  0  the total is  26
+ from rank  1  the total is  30
+ from rank  3  the total is  30
+ from rank  0  the total is  30
+Application 27673062 resources: utime ~0s, stime ~0s, Rss ~5984, inblocks ~8576, outblocks ~21205
+
+real	0m2.584s
+user	0m0.504s
+sys	0m0.160s
+--------------------------------------------------------------------------------
+Finished at Thu Jul 13 10:58:23 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:03
+
+*** guest52   Job: 4641019.sdb   ended: 13/07/17 10:58:23   queue: R4599300 ***
+*** guest52   Job: 4641019.sdb   ended: 13/07/17 10:58:23   queue: R4599300 ***
+*** guest52   Job: 4641019.sdb   ended: 13/07/17 10:58:23   queue: R4599300 ***
+*** guest52   Job: 4641019.sdb   ended: 13/07/17 10:58:23   queue: R4599300 ***
+--------------------------------------------------------------------------------

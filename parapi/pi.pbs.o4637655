@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4637655.sdb   started: 12/07/17 14:44:01   host: mom5 ***
+*** guest52   Job: 4637655.sdb   started: 12/07/17 14:44:01   host: mom5 ***
+*** guest52   Job: 4637655.sdb   started: 12/07/17 14:44:01   host: mom5 ***
+*** guest52   Job: 4637655.sdb   started: 12/07/17 14:44:01   host: mom5 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program pi on 4 processes
+Started at Wed Jul 12 14:44:02 BST 2017
+--------------------------------------------------------------------------------
+ 3.14159298
+ 3.14159298
+ 3.14159298
+ 3.14159298
+Attempting to use an MPI routine before initializing MPICH
+Attempting to use an MPI routine before initializing MPICH
+Attempting to use an MPI routine before initializing MPICH
+Attempting to use an MPI routine before initializing MPICH
+Application 27658812 exit codes: 1
+Application 27658812 resources: utime ~0s, stime ~0s, Rss ~6172, inblocks ~8554, outblocks ~21136
+
+real	0m3.800s
+user	0m0.504s
+sys	0m0.148s
+--------------------------------------------------------------------------------
+Finished at Wed Jul 12 14:44:06 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=8792kb,ncpus=24,vmem=188336kb,walltime=00:00:05
+
+*** guest52   Job: 4637655.sdb   ended: 12/07/17 14:44:06   queue: R4599326 ***
+*** guest52   Job: 4637655.sdb   ended: 12/07/17 14:44:06   queue: R4599326 ***
+*** guest52   Job: 4637655.sdb   ended: 12/07/17 14:44:06   queue: R4599326 ***
+*** guest52   Job: 4637655.sdb   ended: 12/07/17 14:44:06   queue: R4599326 ***
+--------------------------------------------------------------------------------

@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4637637.sdb   started: 12/07/17 14:41:29   host: mom5 ***
+*** guest52   Job: 4637637.sdb   started: 12/07/17 14:41:29   host: mom5 ***
+*** guest52   Job: 4637637.sdb   started: 12/07/17 14:41:29   host: mom5 ***
+*** guest52   Job: 4637637.sdb   started: 12/07/17 14:41:29   host: mom5 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program pi on 4 processes
+Started at Wed Jul 12 14:41:30 BST 2017
+--------------------------------------------------------------------------------
+Rank 1 [Wed Jul 12 14:41:32 2017] [c1-0c1s2n2] Fatal error in PMPI_Comm_rank: Invalid communicator, error stack:
+PMPI_Comm_rank(113): MPI_Comm_rank(comm=0x0, rank=0xa8fb28) failed
+PMPI_Comm_rank(69).: Invalid communicator
+Rank 2 [Wed Jul 12 14:41:32 2017] [c1-0c1s2n2] Fatal error in PMPI_Comm_rank: Invalid communicator, error stack:
+PMPI_Comm_rank(113): MPI_Comm_rank(comm=0x0, rank=0xa8fb28) failed
+PMPI_Comm_rank(69).: Invalid communicator
+Rank 0 [Wed Jul 12 14:41:32 2017] [c1-0c1s2n2] Fatal error in PMPI_Comm_rank: Invalid communicator, error stack:
+PMPI_Comm_rank(113): MPI_Comm_rank(comm=0x0, rank=0xa8fb28) failed
+PMPI_Comm_rank(69).: Invalid communicator
+Rank 3 [Wed Jul 12 14:41:32 2017] [c1-0c1s2n2] Fatal error in PMPI_Comm_rank: Invalid communicator, error stack:
+PMPI_Comm_rank(113): MPI_Comm_rank(comm=0x0, rank=0xa8fb28) failed
+PMPI_Comm_rank(69).: Invalid communicator
+_pmiu_daemon(SIGCHLD): [NID 00266] [c1-0c1s2n2] [Wed Jul 12 14:41:32 2017] PE RANK 2 exit signal Aborted
+[NID 00266] 2017-07-12 14:41:32 Apid 27658767: initiated application termination
+Application 27658767 exit codes: 134
+Application 27658767 resources: utime ~0s, stime ~0s, Rss ~5792, inblocks ~8573, outblocks ~21142
+
+real	0m2.946s
+user	0m0.528s
+sys	0m0.128s
+--------------------------------------------------------------------------------
+Finished at Wed Jul 12 14:41:32 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=1496kb,ncpus=24,vmem=14344kb,walltime=00:00:04
+
+*** guest52   Job: 4637637.sdb   ended: 12/07/17 14:41:33   queue: standard ***
+*** guest52   Job: 4637637.sdb   ended: 12/07/17 14:41:33   queue: standard ***
+*** guest52   Job: 4637637.sdb   ended: 12/07/17 14:41:33   queue: standard ***
+*** guest52   Job: 4637637.sdb   ended: 12/07/17 14:41:33   queue: standard ***
+--------------------------------------------------------------------------------

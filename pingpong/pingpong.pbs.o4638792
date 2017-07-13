@@ -1,0 +1,236 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4638792.sdb   started: 12/07/17 17:15:07   host: mom1 ***
+*** guest52   Job: 4638792.sdb   started: 12/07/17 17:15:07   host: mom1 ***
+*** guest52   Job: 4638792.sdb   started: 12/07/17 17:15:07   host: mom1 ***
+*** guest52   Job: 4638792.sdb   started: 12/07/17 17:15:07   host: mom1 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program pingpong on 4 processes
+Started at Wed Jul 12 17:15:07 BST 2017
+--------------------------------------------------------------------------------
+ 0
+ 2
+ 1
+ here
+ 3
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ here
+ starting
+[NID 00012] 2017-07-12 17:15:10 Apid 27661781: initiated application termination
+Application 27661781 resources: utime ~0s, stime ~0s, Rss ~6120, inblocks ~8578, outblocks ~21213
+
+real	0m2.816s
+user	0m0.520s
+sys	0m0.212s
+--------------------------------------------------------------------------------
+Finished at Wed Jul 12 17:15:10 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:04
+
+*** guest52   Job: 4638792.sdb   ended: 12/07/17 17:15:10   queue: R4599326 ***
+*** guest52   Job: 4638792.sdb   ended: 12/07/17 17:15:10   queue: R4599326 ***
+*** guest52   Job: 4638792.sdb   ended: 12/07/17 17:15:10   queue: R4599326 ***
+*** guest52   Job: 4638792.sdb   ended: 12/07/17 17:15:10   queue: R4599326 ***
+--------------------------------------------------------------------------------

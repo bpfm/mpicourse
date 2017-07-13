@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4638726.sdb   started: 12/07/17 17:05:12   host: mom1 ***
+*** guest52   Job: 4638726.sdb   started: 12/07/17 17:05:12   host: mom1 ***
+*** guest52   Job: 4638726.sdb   started: 12/07/17 17:05:12   host: mom1 ***
+*** guest52   Job: 4638726.sdb   started: 12/07/17 17:05:12   host: mom1 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program pingpong on 4 processes
+Started at Wed Jul 12 17:05:13 BST 2017
+--------------------------------------------------------------------------------
+[NID 00010] 2017-07-12 17:05:15 Apid 27661576: initiated application termination
+Application 27661576 resources: utime ~0s, stime ~0s, Rss ~6172, inblocks ~8577, outblocks ~21213
+
+real	0m2.656s
+user	0m0.532s
+sys	0m0.176s
+--------------------------------------------------------------------------------
+Finished at Wed Jul 12 17:05:15 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:03
+
+*** guest52   Job: 4638726.sdb   ended: 12/07/17 17:05:15   queue: R4599326 ***
+*** guest52   Job: 4638726.sdb   ended: 12/07/17 17:05:15   queue: R4599326 ***
+*** guest52   Job: 4638726.sdb   ended: 12/07/17 17:05:15   queue: R4599326 ***
+*** guest52   Job: 4638726.sdb   ended: 12/07/17 17:05:15   queue: R4599326 ***
+--------------------------------------------------------------------------------
