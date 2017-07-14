@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4642550.sdb   started: 13/07/17 15:46:16   host: mom1 ***
+*** guest52   Job: 4642550.sdb   started: 13/07/17 15:46:16   host: mom1 ***
+*** guest52   Job: 4642550.sdb   started: 13/07/17 15:46:16   host: mom1 ***
+*** guest52   Job: 4642550.sdb   started: 13/07/17 15:46:16   host: mom1 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program ring on 4 processes
+Started at Thu Jul 13 15:46:17 BST 2017
+--------------------------------------------------------------------------------
+ from rank  0  the total is  16
+ from rank  2  the total is  4
+ from rank  1  the total is  1
+ from rank  3  the total is  9
+ from rank  1  the total is  17
+ from rank  0  the total is  25
+ from rank  3  the total is  13
+ from rank  2  the total is  5
+ from rank  0  the total is  29
+ from rank  3  the total is  14
+ from rank  1  the total is  26
+ Finished Rank =  0  total =   29
+ Finished Rank =  3  total =   14
+ from rank  2  the total is  21
+ Finished Rank =  1  total =   26
+ Finished Rank =  2  total =   21
+ total time =  8.60691070556640625E-5
+ total time =  9.08374786376953125E-5
+ total time =  8.79764556884765625E-5
+ total time =  9.2983245849609375E-5
+Application 27681267 resources: utime ~0s, stime ~0s, Rss ~6100, inblocks ~8613, outblocks ~21268
+
+real	0m3.553s
+user	0m0.504s
+sys	0m0.156s
+--------------------------------------------------------------------------------
+Finished at Thu Jul 13 15:46:20 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:05
+
+*** guest52   Job: 4642550.sdb   ended: 13/07/17 15:46:20   queue: R4599300 ***
+*** guest52   Job: 4642550.sdb   ended: 13/07/17 15:46:20   queue: R4599300 ***
+*** guest52   Job: 4642550.sdb   ended: 13/07/17 15:46:20   queue: R4599300 ***
+*** guest52   Job: 4642550.sdb   ended: 13/07/17 15:46:20   queue: R4599300 ***
+--------------------------------------------------------------------------------

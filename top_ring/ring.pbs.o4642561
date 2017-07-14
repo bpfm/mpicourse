@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4642561.sdb   started: 13/07/17 15:48:52   host: mom5 ***
+*** guest52   Job: 4642561.sdb   started: 13/07/17 15:48:52   host: mom5 ***
+*** guest52   Job: 4642561.sdb   started: 13/07/17 15:48:52   host: mom5 ***
+*** guest52   Job: 4642561.sdb   started: 13/07/17 15:48:52   host: mom5 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program ring on 4 processes
+Started at Thu Jul 13 15:48:52 BST 2017
+--------------------------------------------------------------------------------
+ Finished Rank =  1  total =   6
+ Finished Rank =  3  total =   6
+ Finished Rank =  0  total =   6
+ Finished Rank =  2  total =   6
+ total time =  7.89165496826171875E-5
+ total time =  8.32080841064453125E-5
+ total time =  8.296966552734375E-5
+ total time =  8.296966552734375E-5
+Application 27681307 resources: utime ~0s, stime ~0s, Rss ~6212, inblocks ~8613, outblocks ~21266
+
+real	0m11.150s
+user	0m0.468s
+sys	0m0.192s
+--------------------------------------------------------------------------------
+Finished at Thu Jul 13 15:49:04 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=8796kb,ncpus=24,vmem=188336kb,walltime=00:00:13
+
+*** guest52   Job: 4642561.sdb   ended: 13/07/17 15:49:04   queue: R4599300 ***
+*** guest52   Job: 4642561.sdb   ended: 13/07/17 15:49:04   queue: R4599300 ***
+*** guest52   Job: 4642561.sdb   ended: 13/07/17 15:49:04   queue: R4599300 ***
+*** guest52   Job: 4642561.sdb   ended: 13/07/17 15:49:04   queue: R4599300 ***
+--------------------------------------------------------------------------------

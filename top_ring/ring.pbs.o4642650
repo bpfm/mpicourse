@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4642650.sdb   started: 13/07/17 15:56:18   host: mom5 ***
+*** guest52   Job: 4642650.sdb   started: 13/07/17 15:56:18   host: mom5 ***
+*** guest52   Job: 4642650.sdb   started: 13/07/17 15:56:18   host: mom5 ***
+*** guest52   Job: 4642650.sdb   started: 13/07/17 15:56:18   host: mom5 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program ring on 4 processes
+Started at Thu Jul 13 15:56:19 BST 2017
+--------------------------------------------------------------------------------
+ Finished Rank =  2  total =   3
+ Finished Rank =  3  total =   6
+ Finished Rank =  1  total =   1
+ Finished Rank =  0  total =   0
+ total time =  7.3909759521484375E-5
+ total time =  7.51018524169921875E-5
+ total time =  7.5817108154296875E-5
+ total time =  7.4863433837890625E-5
+[NID 00004] 2017-07-13 15:56:22 Apid 27682006: initiated application termination
+Application 27682006 resources: utime ~0s, stime ~0s, Rss ~6212, inblocks ~8613, outblocks ~21266
+
+real	0m3.567s
+user	0m0.516s
+sys	0m0.172s
+--------------------------------------------------------------------------------
+Finished at Thu Jul 13 15:56:22 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:04
+
+*** guest52   Job: 4642650.sdb   ended: 13/07/17 15:56:23   queue: R4599300 ***
+*** guest52   Job: 4642650.sdb   ended: 13/07/17 15:56:23   queue: R4599300 ***
+*** guest52   Job: 4642650.sdb   ended: 13/07/17 15:56:23   queue: R4599300 ***
+*** guest52   Job: 4642650.sdb   ended: 13/07/17 15:56:23   queue: R4599300 ***
+--------------------------------------------------------------------------------
