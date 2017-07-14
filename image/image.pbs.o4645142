@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4645142.sdb   started: 14/07/17 14:52:17   host: mom4 ***
+*** guest52   Job: 4645142.sdb   started: 14/07/17 14:52:17   host: mom4 ***
+*** guest52   Job: 4645142.sdb   started: 14/07/17 14:52:17   host: mom4 ***
+*** guest52   Job: 4645142.sdb   started: 14/07/17 14:52:17   host: mom4 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program image on 8 processes
+Started at Fri Jul 14 14:52:18 BST 2017
+--------------------------------------------------------------------------------
+ STOP  
+ STOP  
+ STOP  
+ STOP  
+ STOP  
+ STOP  
+ STOP  
+ STOP  
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+ ERROR: size not equal to P
+Application 27700304 resources: utime ~0s, stime ~0s, Rss ~6400, inblocks ~9942, outblocks ~25180
+
+real	0m3.047s
+user	0m0.544s
+sys	0m0.220s
+--------------------------------------------------------------------------------
+Finished at Fri Jul 14 14:52:21 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=19360kb,ncpus=24,vmem=148440kb,walltime=00:00:04
+
+*** guest52   Job: 4645142.sdb   ended: 14/07/17 14:52:21   queue: R4599303 ***
+*** guest52   Job: 4645142.sdb   ended: 14/07/17 14:52:21   queue: R4599303 ***
+*** guest52   Job: 4645142.sdb   ended: 14/07/17 14:52:21   queue: R4599303 ***
+*** guest52   Job: 4645142.sdb   ended: 14/07/17 14:52:21   queue: R4599303 ***
+--------------------------------------------------------------------------------

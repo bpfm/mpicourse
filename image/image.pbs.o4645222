@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4645222.sdb   started: 14/07/17 15:15:08   host: mom2 ***
+*** guest52   Job: 4645222.sdb   started: 14/07/17 15:15:08   host: mom2 ***
+*** guest52   Job: 4645222.sdb   started: 14/07/17 15:15:08   host: mom2 ***
+*** guest52   Job: 4645222.sdb   started: 14/07/17 15:15:08   host: mom2 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program image on 8 processes
+Started at Fri Jul 14 15:15:08 BST 2017
+--------------------------------------------------------------------------------
+ using P =  8 processors
+ using P =  8 processors
+ using P =  8 processors
+ using P =  8 processors
+ using P =  8 processors
+ using P =  8 processors
+ using P =  8 processors
+ using P =  8 processors
+ allocating on  3
+ allocating on  6
+ allocating on  2
+ allocating on  7
+ allocating on  4
+ allocating on  5
+ Reading  192  x  128  picture from: edge192x128.pgm
+ allocating on  1
+ allocating on  0
+ Writing  192  x  128  picture into: picture.pgm
+Application 27700833 resources: utime ~1s, stime ~0s, Rss ~6400, inblocks ~13751, outblocks ~25375
+
+real	0m3.214s
+user	0m0.628s
+sys	0m0.196s
+--------------------------------------------------------------------------------
+Finished at Fri Jul 14 15:15:12 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:05
+
+*** guest52   Job: 4645222.sdb   ended: 14/07/17 15:15:12   queue: R4599303 ***
+*** guest52   Job: 4645222.sdb   ended: 14/07/17 15:15:12   queue: R4599303 ***
+*** guest52   Job: 4645222.sdb   ended: 14/07/17 15:15:12   queue: R4599303 ***
+*** guest52   Job: 4645222.sdb   ended: 14/07/17 15:15:12   queue: R4599303 ***
+--------------------------------------------------------------------------------

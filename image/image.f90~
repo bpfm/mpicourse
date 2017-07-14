@@ -1,0 +1,59 @@
+program main
+  use mpi
+  use pgmio
+  implicit none
+
+  integer :: comm,rank,size,error
+  integer :: i,j,k,nx,ny,nx_p,ny_p,n_iter=10000
+  integer,parameter :: P=4
+  real,allocatable :: master_buf(:,:),buf(:,:),new(:,:),old(:,:),edge(:,:)
+
+  comm = MPI_COMM_WORLD
+
+  call MPI_INIT(error)
+  call MPI_COMM_RANK(comm,rank,error)
+  call MPI_COMM_SIZE(comm,size,error)
+
+  if(size/=P)then
+     print*,'ERROR: size not equal to P'
+     stop
+  endif
+
+  call pgmsize('edge768x768.pgm',nx,ny)
+  
+  nx_p = nx
+  ny_p = ny/P
+
+  if(rank==0)then
+     allocate(master_buf(nx,ny))
+     call pgmread('edge768x768.pgm',master_buf)
+  endif
+
+  allocate(buf(nx_p,ny_p))
+  allocate(new(0:nx_p+1,0:ny_p+1))
+  allocate(old(0:nx_p+1,0:ny_p+1))
+  allocate(edge(nx_p,ny_p))
+
+  call MPI_SCATTER(master_buf,nx_p*ny_p,MPI_REAL,buf,nx_p*ny_p,MPI_REAL,0,comm)
+
+  old = 255.0
+  edge = buf
+
+  do k=1,n_iter
+     do i=1,nx
+        do j=1,ny
+           new(i,j)=0.25*(old(i-1,j)+old(i+1,j)+old(i,j+1)+old(i,j-1)-edge(i,j))
+        enddo
+     enddo
+     old = new
+  enddo
+
+  buf = old(1:nx,1:ny)
+
+  if(rank==0)then
+     call pgmwrite('picture.pgm',master_buf)
+  endif
+
+  call MPI_FINALIZE(error)
+
+endprogram

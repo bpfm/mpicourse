@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4644999.sdb   started: 14/07/17 14:07:55   host: mom3 ***
+*** guest52   Job: 4644999.sdb   started: 14/07/17 14:07:55   host: mom3 ***
+*** guest52   Job: 4644999.sdb   started: 14/07/17 14:07:55   host: mom3 ***
+*** guest52   Job: 4644999.sdb   started: 14/07/17 14:07:55   host: mom3 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program image on 4 processes
+Started at Fri Jul 14 14:07:56 BST 2017
+--------------------------------------------------------------------------------
+ Reading  768  x  768  picture from: edge768x768.pgm
+_pmiu_daemon(SIGCHLD): [NID 00004] [c0-0c0s1n0] [Fri Jul 14 14:07:59 2017] PE RANK 2 exit signal Segmentation fault
+Application 27699599 exit codes: 139
+Application 27699599 resources: utime ~0s, stime ~0s, Rss ~6800, inblocks ~16952, outblocks ~25177
+
+real	0m3.359s
+user	0m0.568s
+sys	0m0.160s
+--------------------------------------------------------------------------------
+Finished at Fri Jul 14 14:07:59 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:05
+
+*** guest52   Job: 4644999.sdb   ended: 14/07/17 14:07:59   queue: R4599303 ***
+*** guest52   Job: 4644999.sdb   ended: 14/07/17 14:07:59   queue: R4599303 ***
+*** guest52   Job: 4644999.sdb   ended: 14/07/17 14:07:59   queue: R4599303 ***
+*** guest52   Job: 4644999.sdb   ended: 14/07/17 14:07:59   queue: R4599303 ***
+--------------------------------------------------------------------------------

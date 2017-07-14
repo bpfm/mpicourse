@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4645108.sdb   started: 14/07/17 14:43:21   host: mom3 ***
+*** guest52   Job: 4645108.sdb   started: 14/07/17 14:43:21   host: mom3 ***
+*** guest52   Job: 4645108.sdb   started: 14/07/17 14:43:21   host: mom3 ***
+*** guest52   Job: 4645108.sdb   started: 14/07/17 14:43:21   host: mom3 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program image on 4 processes
+Started at Fri Jul 14 14:43:21 BST 2017
+--------------------------------------------------------------------------------
+ using P =  4 processors
+ using P =  4 processors
+ using P =  4 processors
+ using P =  4 processors
+ allocating on  1
+ allocating on  3
+ Reading  192  x  128  picture from: edge192x128.pgm
+ allocating on  2
+ allocating on  0
+ Writing  192  x  128  picture into: picture.pgm
+Application 27700127 resources: utime ~0s, stime ~0s, Rss ~6400, inblocks ~12127, outblocks ~25375
+
+real	0m2.889s
+user	0m0.556s
+sys	0m0.168s
+--------------------------------------------------------------------------------
+Finished at Fri Jul 14 14:43:24 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:04
+
+*** guest52   Job: 4645108.sdb   ended: 14/07/17 14:43:24   queue: R4599303 ***
+*** guest52   Job: 4645108.sdb   ended: 14/07/17 14:43:24   queue: R4599303 ***
+*** guest52   Job: 4645108.sdb   ended: 14/07/17 14:43:24   queue: R4599303 ***
+*** guest52   Job: 4645108.sdb   ended: 14/07/17 14:43:24   queue: R4599303 ***
+--------------------------------------------------------------------------------

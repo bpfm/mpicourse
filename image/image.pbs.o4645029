@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+*** guest52   Job: 4645029.sdb   started: 14/07/17 14:24:02   host: mom1 ***
+*** guest52   Job: 4645029.sdb   started: 14/07/17 14:24:02   host: mom1 ***
+*** guest52   Job: 4645029.sdb   started: 14/07/17 14:24:02   host: mom1 ***
+*** guest52   Job: 4645029.sdb   started: 14/07/17 14:24:02   host: mom1 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Running MPI program image on 4 processes
+Started at Fri Jul 14 14:24:03 BST 2017
+--------------------------------------------------------------------------------
+ using P =  4 processors
+ using P =  4 processors
+ using P =  4 processors
+ using P =  4 processors
+ Reading  192  x  128  picture from: edge192x128.pgm
+_pmiu_daemon(SIGCHLD): [NID 00004] [c0-0c0s1n0] [Fri Jul 14 14:24:05 2017] PE RANK 3 exit signal Segmentation fault
+Application 27699794 exit codes: 139
+Application 27699794 resources: utime ~0s, stime ~0s, Rss ~6212, inblocks ~10227, outblocks ~25163
+
+real	0m2.880s
+user	0m0.540s
+sys	0m0.184s
+--------------------------------------------------------------------------------
+Finished at Fri Jul 14 14:24:05 BST 2017
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=24,place=free,walltime=00:02:00
+Resources allocated: cpupercent=0,cput=00:00:01,mem=0kb,ncpus=24,vmem=0kb,walltime=00:00:04
+
+*** guest52   Job: 4645029.sdb   ended: 14/07/17 14:24:06   queue: R4599303 ***
+*** guest52   Job: 4645029.sdb   ended: 14/07/17 14:24:06   queue: R4599303 ***
+*** guest52   Job: 4645029.sdb   ended: 14/07/17 14:24:06   queue: R4599303 ***
+*** guest52   Job: 4645029.sdb   ended: 14/07/17 14:24:06   queue: R4599303 ***
+--------------------------------------------------------------------------------
